@@ -34,16 +34,6 @@ function register_sidebar_freya() {
         'after_title' => '</h3>',
     ));
 }
-
-//Asignación e inicialización
-add_action('init', 'customRSS');
-function customRSS(){
-        add_feed('feedname', 'customRSSFunc');
-}
-
-function customRSSFunc(){
-        get_template_part('rss', 'feedname');
-}
 /**/
 add_action('wp_enqueue_scripts', 'load_theme');
 add_action('init', 'register_sidebar_freya');

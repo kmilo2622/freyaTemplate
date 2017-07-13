@@ -1,4 +1,4 @@
-/* 
+/*
 Nombre: Juan Camilo Arroyave Rico
 Programa de Formación: Producción de Multimedia
 Institución: Servicio Nacional de Aprendizaje SENA
@@ -6,6 +6,8 @@ Evidencia: Laboratorio Web
 */
 
 /*Estilos generales*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
 	background-color: #f0f0f0;
@@ -96,7 +98,7 @@ header {
 /*Estilos de elementos específicos*/
 
 .front-image {
-	background-image: linear-gradient(to bottom, rgba(181,53,177,0.78), rgba(181,53,177,0.78)), url("http://cdn.wikifaunia.com/wp-content/uploads/2015/09/robles.jpeg");
+	background-image: linear-gradient(to bottom, rgba(181,53,177,0.78), rgba(181,53,177,0.78)), url(http://cdn.wikifaunia.com/wp-content/uploads/2015/09/robles.jpeg);
 	background-size: cover;
 	background-position: center;
 	padding-bottom: 20px;
@@ -172,7 +174,7 @@ header {
 	padding-bottom: 50px;
 }
 .front-image2 {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://3.bp.blogspot.com/-7aS41Jn5uoM/U5iLkP9ueoI/AAAAAAAADJg/2vRwCZtekZc/s1600/robleinglaterra.jpg");
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(http://3.bp.blogspot.com/-7aS41Jn5uoM/U5iLkP9ueoI/AAAAAAAADJg/2vRwCZtekZc/s1600/robleinglaterra.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;

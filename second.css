@@ -1,10 +1,10 @@
-/* 
+/*
 Nombre: Juan Camilo Arroyave Rico
 Programa de Formación: Producción de Multimedia
 Institución: Servicio Nacional de Aprendizaje SENA
 Evidencia: Laboratorio Web
 
-El Propósito de este segundo estilo 
+El Propósito de este segundo estilo
 es no congestionar cada documento
 con una gran cantidad de texto
 */
@@ -116,14 +116,15 @@ footer p {
 	font-size: 30px;
 }
 #dreamweaver-copyright {
+	padding: 50px;
 	background-color: black;
 	color: white;
 }
 #dreamweaver-copyright p {
-	line-height: 0px;
+	line-height: 10px;
 }
 .header-picture {
-	background-image: linear-gradient(to bottom, rgba(181,53,177,0.78), rgba(181,53,177,0.78)), url("http://cdn.wikifaunia.com/wp-content/uploads/2015/09/robles.jpeg");
+	background-image: linear-gradient(to bottom, rgba(181,53,177,0.78), rgba(181,53,177,0.78)), url(http://cdn.wikifaunia.com/wp-content/uploads/2015/09/robles.jpeg);
 	background-size: cover;
 	background-position: center;
 	padding-bottom: 20px;
