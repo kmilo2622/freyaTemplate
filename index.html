@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Nombre: Juan Camilo Arroyave Rico
+Programa: Producción de Multimedia
+Evidencia: Laboratorio Web con Dreamweaver
+Versión de Dreamweaver CC: 13.2 Build 6466
+-->
+<html>
+<head>
+<title>Corporación Freya</title>
+<meta charset="utf-8">
+<meta name="description" content="La Corporación Freya es una organización sin ánimo de lucro que buscar mejorar la calidad de vida de las personas">
+<!--Inserción de los estilos-->
+<link rel="stylesheet" href="estilos/estilo.css">
+<link rel="stylesheet" type="text/css" href="estilos/segundo-estilo.css">
+<!--Favicon: Ícono que se visualiza en la barra de direcciones y pestañas del navegador-->
+<link rel="icon" type="image/png" href="imagenes/escudo.png" />
+<!--
+La verdad aquí en el estilo no quiero instalar librerías como Bootstrap pues 
+para este caso en particular en que estoy aprendiendo y considero que podría
+ser fácilmente considerado trampa
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!--Para su correcta visibilidad en móbiles-->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!--Fuente Lato de Google (es visualmente muy atractiva-->
+<!--Comienzo de los scripts-->
+<script src="scripts/first.js"></script>
+<!--Final de los scripts-->
+<!--
+En lo personal no me agrada la identación que ofrece dreamweaver, 
+Es muy básica e ineficiente, Brackets ofrece una mejor forma de identar y
+organizar el código... pero bueno
+-->
+</head>
+<body>
+<div class="navigation" id="navigation"> 
+  <!--Inicio del Menú de Navegación... Sin Bootstrap-->
+  <nav class="menu">
+    <ul>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="paginas/nosotros.html">Nosotros</a></li>
+      <li><a href="paginas/servicios.html">Servicios</a></li>
+      <li><a href="#">Programas de Formación</a></li>
+      <ul>
+        <li><a href="#">Cursos Cortos</a></li>
+        <li><a href="#">Programas de Formación Complementaria</a></li>
+        <li><a href="#">Carreras Técnicas</a></li>
+      </ul>
+      <li><a href="#contact">Contacto</a></li>
+      <hr id="division-nav">
+      <li><a href="#">Registrarse</a></li>
+      <li><a href="#">Iniciar Sesión</a></li>
+    </ul>
+  </nav>
+  <!--Final de la barra del menú de navegación--> 
+</div>
+<div id="main">
+  <header class="header"> 
+    <!--Puede ser un poco confuso, pero el menú de navegación es similar a un sidebar así que éste es el estilo para alojar la barra delm header que es demasiado importante-->
+    <div class="navbar">
+      <div id="brand"><img src="imagenes/logo.png" alt="Logotipo de la Corporación Freya" width="100px" height="50px"></div>
+      <div id="burger" onclick="openNav()" style="font-size:40px;cursor:pointer">&#5816;</div>
+    </div>
+    <!-- Final del Header--> 
+  </header>
+  <div class="front-image"> 
+    <!--Si tuviera Bootstrap, éste sería el Jumbotron-->
+    <p class="hero-text">Luchando por Conseguir un Mundo Mejor</p>
+    <!--Final de la imagen de inicio--> 
+  </div>
+  <div class="banner"> 
+    <!--Inicio del banner-->
+    <p id="hero2">Conoce Aquí un Mundo Lleno de Oportunidades</p>
+    <div class="buttoncontainer"><a href="paginas/nosotros.html" class="btn1">Entrar</a></div>
+    <!--Final del Banner--> 
+  </div>
+  <div class="front-image2"> 
+    <!--Si tuviera Bootstrap, éste sería el Jumbotron-->
+    <p class="hero-text">Nuestros Servicios</p>
+    <!--Final de la imagen de inicio--> 
+  </div>
+  <section class="text1">
+    <div id="text1" align="center">
+      <h2>Título</h2>
+      <p> lorem expands to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, non, quos voluptas vel earum unde laboriosam qui optio asperiores nesciunt sed voluptatibus quae harum nisi iure sapiente numquam quo minus. </p>
+      <p><a href="paginas/servicios.html" class="btn1">Entrar</a></p>
+    </div>
+  </section>
+  <div id="contact"></div>
+  <div class="kontacte">
+    <section class="contact">
+      <div id="form">
+        <form>
+          <input type="text"  id="nombre" class="formtext campo"name="nombre" placeholder="Nombre">
+          <br>
+          <input type="email" id="email" class="formtext campo" name="email" placeholder="Correo Electrónico">
+          <br>
+          <input type="text" id="message" name="mensaje" class="formessage campo" placeholder="Mensaje">
+          <br>
+          <input type="submit"  id="submit" value="Enviar">
+        </form>
+      </div>
+      <div class="texto2" align="right">
+        <p>Contáctanos!</p>
+      </div>
+    </section>
+  </div>
+  <div id="footer-section">
+    <footer>
+      <h2 id="corponame">Corporación Freya</h2>
+      <p>Organización sin Ánimo de Lucro</p>
+      <p>Todos los Derechos Reservados</p>
+    </footer>
+  </div>
+</div>
+<div id="dreamweaver-copyright" align="center"> <br>
+  <p>Juan Camilo Arroyave Rico</p>
+  <p><em>Servicio Nacional de Aprendizaje <strong>SENA</strong></em></p>
+  <p><strong>Producción de Multimedia</strong></p>
+  <p>Evidencia: Laboratorio Web</p>
+  <p>Diseñado y Desarrollado en Dreamweaver CC: 13.2 Build 6466</p>
+  <br>
+</div>
+</body>
+</html>
