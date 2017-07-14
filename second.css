@@ -10,7 +10,7 @@ con una gran cantidad de texto
 */
 
 .kontacte {
-	background-image: linear-gradient(to bottom, rgba(154,70,148,0.68), rgba(154,70,148,0.68)), url("../imagenes/freya.jpg") !important;
+	background-image: linear-gradient(to bottom, rgba(154,70,148,0.68), rgba(154,70,148,0.68)), url("./imagenes/freya.jpg") !important;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -23,7 +23,6 @@ con una gran cantidad de texto
 	text-align: center;
 	width: 30%;
 	float: left;
-	font-size: 30px;
 	margin-left: 50px;
 	margin-top: 50px;
 	padding: 10px;
