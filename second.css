@@ -146,3 +146,11 @@ footer p {
 	text-align: center;
 	height: 50vh;
 }
+
+.widget {
+	margin-top: 50px;
+}
+
+.sidebar {
+	background: gray;
+}
