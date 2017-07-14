@@ -43,13 +43,14 @@ hr {
 }
 .navigation ul {
 	list-style-type: none;
+	margin-top: 50px;
 }
 .navigation a {
-	margin-top: 50px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	padding-left: 8px;
 	padding-right: 35px;
+	margin-right: 35px;
 	text-decoration: none;
 	font-size: 17px;
 	color: #818181;
@@ -63,9 +64,9 @@ hr {
 	position: absolute;
 	top: 0;
 	margin-top: 0 !important;
-	right: 25px;
+	left: 25px;
 	font-size: 36px;
-	/*margin-left: 50px;*/
+	margin-left: 0px;
 }
 #burger {
 	float: right;
@@ -78,12 +79,12 @@ hr {
 }
 
 @media screen and (max-height: 450px) {
-.navigation {
-	padding-top: 15px;
-}
-.navigation a {
-	font-size: 18px;
-}
+	.navigation {
+		padding-top: 15px;
+	}
+	.navigation a {
+		font-size: 18px;
+	}
 }
 header {
 	background-color: white;
