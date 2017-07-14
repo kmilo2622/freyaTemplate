@@ -1,18 +1,21 @@
 <?php get_header(); ?>
-<!-- <div class="header-picture"> </div> -->
-<div class="page_wrapper" data-stellar-background-ratio=".5" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>');">
 
-    <section class="container">
-        <div>
-            <?php if (have_posts()) : ?>
-                <?php while (have_posts()) : the_post(); ?>
-                    <h2><?php the_title(); ?></h2>
-                    <p><?php the_content(); ?></p>
-
-                <?php endwhile; ?>
-
-            <?php endif; ?>
+<?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
+        <div style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>'); height:70vh; background-size:cover;
+            background-attachment:fixed;">
         </div>
-    </section>
+        <section class="container page-content">
+            <div>
+                <br>
+                <h2 class="text-center"><?php the_title(); ?></h2>
+                <hr><br>
+                <p><?php the_content(); ?></p>
+            </div>
+        </section>
 
-    <?php get_footer(); ?>
+    <?php endwhile; ?>
+
+<?php endif; ?>
+
+<?php get_footer(); ?>

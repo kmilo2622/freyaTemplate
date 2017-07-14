@@ -32,7 +32,9 @@ Versión de Dreamweaver CC: 13.2 Build 6466
         <header class="header">
             <!--Puede ser un poco confuso, pero el menú de navegación es similar a un sidebar así que éste es el estilo para alojar la barra delm header que es demasiado importante-->
             <div class="navbar">
-                <div id="brand"><img src="<?php echo get_stylesheet_directory_uri(); ?>/imagenes/logo.png" alt="Logotipo de la Corporación Freya" width="100px" height="50px"></div>
+                <a href="<?php echo home_url() ?>">
+                    <div id="brand"><img src="<?php echo get_stylesheet_directory_uri(); ?>/imagenes/logo.png" alt="Logotipo de la Corporación Freya" width="100px" height="50px"></div>
+                </a>
                 <div id="burger" onclick="openNav()" style="font-size:40px;cursor:pointer">&#5816;</div>
             </div>
             <!-- Final del Header-->
