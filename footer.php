@@ -14,5 +14,6 @@
     <p>Evidencia: Wordpress</p>
     <br>
 </div>
+<?php wp_footer(); ?>
 </body>
 </html>

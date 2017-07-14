@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<!--
-Nombre: Juan Camilo Arroyave Rico
-Programa: Producción de Multimedia
-Evidencia: Laboratorio Web con Dreamweaver
-Versión de Dreamweaver CC: 13.2 Build 6466
--->
+<!DOCTYPE HTML>
+<!-- Desarrollado Por 
+Juan Camilo Arroyave Rico
+Para el Servicio Nacional de Aprendizaje SENA
+Programa Producción de Multimedia -->
 <html <?php language_attributes(); ?>>
-<?php show_admin_bar( true ); ?>
 <head>
     <title><?php wp_title(' | ', true, 'right'); ?> <?php bloginfo('name'); ?></title>
     <meta charset="utf-8">
     <meta name="description" content="La Corporación Freya es una organización sin ánimo de lucro que buscar mejorar la calidad de vida de las personas">
     <!--Inserción de los estilos-->
-    <!--Favicon: Ícono que se visualiza en la b arra de direcciones y pestañas del navegador-->
-    <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/imagenes/escudo.png" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <?php wp_head(); ?>
 </head>
 <body>
