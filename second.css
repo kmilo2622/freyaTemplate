@@ -154,3 +154,16 @@ footer p {
 .sidebar {
 	background: gray;
 }
+
+.entry-header {
+	/*background-position: bottom !important;*/
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+	height: 70vh !important;
+	color: white !important;
+}
+
+.entry-header > h1 {
+	padding-top: 30vh;
+}
